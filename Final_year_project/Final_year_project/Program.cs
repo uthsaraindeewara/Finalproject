@@ -16,7 +16,7 @@ namespace Final_year_project
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new  Calculate_payroll());
+            Application.Run(new  LOGIN());
         }
     }
 }

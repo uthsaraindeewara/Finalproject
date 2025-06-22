@@ -20,6 +20,7 @@ namespace Final_year_project
         private void cashier_panel_Load(object sender, EventArgs e)
         {
             LoadProductData();
+            LoadLatestOrderItems(); // ✅ Load and calculate total of latest customer order
         }
 
         private void LoadProductData()
@@ -102,21 +103,18 @@ namespace Final_year_project
             using (MySqlConnection conn = new MySqlConnection(connectionString))
             {
                 conn.Open();
-
                 MySqlTransaction transaction = conn.BeginTransaction();
 
                 try
                 {
-                    // Insert into orders table
                     string insertOrderQuery = "INSERT INTO orders (customerID, date, status, amount) VALUES (@customerID, @date, @status, @amount); SELECT LAST_INSERT_ID();";
                     MySqlCommand cmd = new MySqlCommand(insertOrderQuery, conn, transaction);
-                    cmd.Parameters.AddWithValue("@customerID", 1); // or pass actual customer ID
+                    cmd.Parameters.AddWithValue("@customerID", 1); // Replace with actual customerID
                     cmd.Parameters.AddWithValue("@date", DateTime.Now);
                     cmd.Parameters.AddWithValue("@status", "Completed");
                     cmd.Parameters.AddWithValue("@amount", netTotal);
                     int orderId = Convert.ToInt32(cmd.ExecuteScalar());
 
-                    // Insert discount
                     if (discountAmount > 0)
                     {
                         string insertDiscount = "INSERT INTO discount (billID, amount) VALUES (@billID, @amount)";
@@ -126,7 +124,6 @@ namespace Final_year_project
                         cmd.ExecuteNonQuery();
                     }
 
-                    // Insert items into orderitem
                     foreach (DataGridViewRow row in dataGridView1.Rows)
                     {
                         if (row.Cells["ID"].Value == null) continue;
@@ -142,6 +139,8 @@ namespace Final_year_project
 
                     transaction.Commit();
                     MessageBox.Show("Order saved successfully.");
+
+                    LoadLatestOrderItems(); // ✅ Refresh view with saved order
                 }
                 catch (Exception ex)
                 {
@@ -149,6 +148,66 @@ namespace Final_year_project
                     MessageBox.Show("Error saving order: " + ex.Message);
                 }
             }
+        }
+
+        private void LoadLatestOrderItems()
+        {
+            using (MySqlConnection conn = new MySqlConnection(connectionString))
+            {
+                conn.Open();
+
+                string getLastOrderQuery = "SELECT MAX(orderID) FROM orders";
+                MySqlCommand cmd = new MySqlCommand(getLastOrderQuery, conn);
+                object result = cmd.ExecuteScalar();
+
+                if (result == null || result == DBNull.Value) return;
+
+                int latestOrderId = Convert.ToInt32(result);
+
+                string itemQuery = @"
+                    SELECT 
+                        oi.productID,
+                        p.name,
+                        oi.quantity,
+                        oi.price,
+                        (oi.quantity * oi.price) AS total
+                    FROM orderitem oi
+                    JOIN product p ON p.productID = oi.productID
+                    WHERE oi.orderID = @orderID";
+
+                cmd = new MySqlCommand(itemQuery, conn);
+                cmd.Parameters.AddWithValue("@orderID", latestOrderId);
+
+                using (MySqlDataAdapter adapter = new MySqlDataAdapter(cmd))
+                {
+                    DataTable dt = new DataTable();
+                    adapter.Fill(dt);
+
+                    dataGridView1.Rows.Clear();
+                    totalBeforeDiscount = 0;
+
+                    foreach (DataRow row in dt.Rows)
+                    {
+                        decimal rowTotal = Convert.ToDecimal(row["total"]);
+                        totalBeforeDiscount += rowTotal;
+
+                        dataGridView1.Rows.Add(
+                            row["productID"].ToString(),
+                            row["name"].ToString(),
+                            row["quantity"].ToString(),
+                            Convert.ToDecimal(row["price"]).ToString("0.00"),
+                            rowTotal.ToString("0.00")
+                        );
+                    }
+
+                    txtTotal.Text = totalBeforeDiscount.ToString("0.00");
+                }
+            }
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+            // Optional for future use
         }
     }
 }
