@@ -1,141 +1,149 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\milin\\Downloads\\Final_year_project (2)\\Final_year_project\\",
+  "WorkspaceRootPath": "E:\\Finalproject\\Final_year_project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{316970EB-95F1-46C8-BDFF-1AD7F54CA6D7}|Final_year_project\\Final_year_project.csproj|C:\\Users\\milin\\Downloads\\Final_year_project (2)\\Final_year_project\\final_year_project\\additems.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{316970EB-95F1-46C8-BDFF-1AD7F54CA6D7}|Final_year_project\\Final_year_project.csproj|solutionrelative:final_year_project\\additems.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{316970EB-95F1-46C8-BDFF-1AD7F54CA6D7}|Final_year_project\\Final_year_project(u).csproj|e:\\finalproject\\final_year_project\\final_year_project\\calculate payroll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{316970EB-95F1-46C8-BDFF-1AD7F54CA6D7}|Final_year_project\\Final_year_project(u).csproj|solutionrelative:final_year_project\\calculate payroll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{316970EB-95F1-46C8-BDFF-1AD7F54CA6D7}|Final_year_project\\Final_year_project.csproj|c:\\users\\milin\\downloads\\final_year_project (2)\\final_year_project\\final_year_project\\dbconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{316970EB-95F1-46C8-BDFF-1AD7F54CA6D7}|Final_year_project\\Final_year_project.csproj|solutionrelative:final_year_project\\dbconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{316970EB-95F1-46C8-BDFF-1AD7F54CA6D7}|Final_year_project\\Final_year_project(u).csproj|E:\\Finalproject\\Final_year_project\\final_year_project\\calculate payroll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{316970EB-95F1-46C8-BDFF-1AD7F54CA6D7}|Final_year_project\\Final_year_project(u).csproj|solutionrelative:final_year_project\\calculate payroll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{316970EB-95F1-46C8-BDFF-1AD7F54CA6D7}|Final_year_project\\Final_year_project.csproj|c:\\users\\milin\\downloads\\final_year_project (2)\\final_year_project\\final_year_project\\addemployees.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{316970EB-95F1-46C8-BDFF-1AD7F54CA6D7}|Final_year_project\\Final_year_project.csproj|solutionrelative:final_year_project\\addemployees.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{316970EB-95F1-46C8-BDFF-1AD7F54CA6D7}|Final_year_project\\Final_year_project(u).csproj|E:\\Finalproject\\Final_year_project\\final_year_project\\dbconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{316970EB-95F1-46C8-BDFF-1AD7F54CA6D7}|Final_year_project\\Final_year_project(u).csproj|solutionrelative:final_year_project\\dbconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{316970EB-95F1-46C8-BDFF-1AD7F54CA6D7}|Final_year_project\\Final_year_project.csproj|C:\\Users\\milin\\Downloads\\Final_year_project (2)\\Final_year_project\\final_year_project\\addemployees.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{316970EB-95F1-46C8-BDFF-1AD7F54CA6D7}|Final_year_project\\Final_year_project.csproj|solutionrelative:final_year_project\\addemployees.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{316970EB-95F1-46C8-BDFF-1AD7F54CA6D7}|Final_year_project\\Final_year_project(u).csproj|E:\\Finalproject\\Final_year_project\\final_year_project\\addemployees.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{316970EB-95F1-46C8-BDFF-1AD7F54CA6D7}|Final_year_project\\Final_year_project(u).csproj|solutionrelative:final_year_project\\addemployees.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{316970EB-95F1-46C8-BDFF-1AD7F54CA6D7}|Final_year_project\\Final_year_project.csproj|C:\\Users\\milin\\Downloads\\Final_year_project (2)\\Final_year_project\\final_year_project\\calculate payroll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{316970EB-95F1-46C8-BDFF-1AD7F54CA6D7}|Final_year_project\\Final_year_project.csproj|E:\\Finalproject\\Final_year_project\\final_year_project\\calculate payroll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{316970EB-95F1-46C8-BDFF-1AD7F54CA6D7}|Final_year_project\\Final_year_project.csproj|solutionrelative:final_year_project\\calculate payroll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{316970EB-95F1-46C8-BDFF-1AD7F54CA6D7}|Final_year_project\\Final_year_project.csproj|C:\\Users\\milin\\Downloads\\Final_year_project (2)\\Final_year_project\\final_year_project\\customerpanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{316970EB-95F1-46C8-BDFF-1AD7F54CA6D7}|Final_year_project\\Final_year_project(u).csproj|E:\\Finalproject\\Final_year_project\\final_year_project\\additems.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{316970EB-95F1-46C8-BDFF-1AD7F54CA6D7}|Final_year_project\\Final_year_project(u).csproj|solutionrelative:final_year_project\\additems.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{316970EB-95F1-46C8-BDFF-1AD7F54CA6D7}|Final_year_project\\Final_year_project.csproj|E:\\Finalproject\\Final_year_project\\final_year_project\\addemployees.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{316970EB-95F1-46C8-BDFF-1AD7F54CA6D7}|Final_year_project\\Final_year_project.csproj|solutionrelative:final_year_project\\addemployees.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{316970EB-95F1-46C8-BDFF-1AD7F54CA6D7}|Final_year_project\\Final_year_project.csproj|E:\\Finalproject\\Final_year_project\\final_year_project\\customerpanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{316970EB-95F1-46C8-BDFF-1AD7F54CA6D7}|Final_year_project\\Final_year_project.csproj|solutionrelative:final_year_project\\customerpanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{316970EB-95F1-46C8-BDFF-1AD7F54CA6D7}|Final_year_project\\Final_year_project.csproj|C:\\Users\\milin\\Downloads\\Final_year_project (2)\\Final_year_project\\final_year_project\\cashier panel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{316970EB-95F1-46C8-BDFF-1AD7F54CA6D7}|Final_year_project\\Final_year_project.csproj|E:\\Finalproject\\Final_year_project\\final_year_project\\cashier panel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{316970EB-95F1-46C8-BDFF-1AD7F54CA6D7}|Final_year_project\\Final_year_project.csproj|solutionrelative:final_year_project\\cashier panel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{316970EB-95F1-46C8-BDFF-1AD7F54CA6D7}|Final_year_project\\Final_year_project.csproj|C:\\Users\\milin\\Downloads\\Final_year_project (2)\\Final_year_project\\final_year_project\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "AbsoluteMoniker": "D:0:0:{316970EB-95F1-46C8-BDFF-1AD7F54CA6D7}|Final_year_project\\Final_year_project.csproj|E:\\Finalproject\\Final_year_project\\final_year_project\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{316970EB-95F1-46C8-BDFF-1AD7F54CA6D7}|Final_year_project\\Final_year_project.csproj|solutionrelative:final_year_project\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{316970EB-95F1-46C8-BDFF-1AD7F54CA6D7}|Final_year_project\\Final_year_project.csproj|C:\\Users\\milin\\Downloads\\Final_year_project (2)\\Final_year_project\\final_year_project\\genaratereports.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{316970EB-95F1-46C8-BDFF-1AD7F54CA6D7}|Final_year_project\\Final_year_project.csproj|E:\\Finalproject\\Final_year_project\\final_year_project\\genaratereports.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{316970EB-95F1-46C8-BDFF-1AD7F54CA6D7}|Final_year_project\\Final_year_project.csproj|solutionrelative:final_year_project\\genaratereports.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{316970EB-95F1-46C8-BDFF-1AD7F54CA6D7}|Final_year_project\\Final_year_project.csproj|C:\\Users\\milin\\Downloads\\Final_year_project (2)\\Final_year_project\\final_year_project\\managestock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{316970EB-95F1-46C8-BDFF-1AD7F54CA6D7}|Final_year_project\\Final_year_project.csproj|E:\\Finalproject\\Final_year_project\\final_year_project\\managestock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{316970EB-95F1-46C8-BDFF-1AD7F54CA6D7}|Final_year_project\\Final_year_project.csproj|solutionrelative:final_year_project\\managestock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{316970EB-95F1-46C8-BDFF-1AD7F54CA6D7}|Final_year_project\\Final_year_project.csproj|C:\\Users\\milin\\Downloads\\Final_year_project (2)\\Final_year_project\\final_year_project\\orderstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{316970EB-95F1-46C8-BDFF-1AD7F54CA6D7}|Final_year_project\\Final_year_project.csproj|E:\\Finalproject\\Final_year_project\\final_year_project\\orderstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{316970EB-95F1-46C8-BDFF-1AD7F54CA6D7}|Final_year_project\\Final_year_project.csproj|solutionrelative:final_year_project\\orderstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{316970EB-95F1-46C8-BDFF-1AD7F54CA6D7}|Final_year_project\\Final_year_project.csproj|C:\\Users\\milin\\Downloads\\Final_year_project (2)\\Final_year_project\\final_year_project\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "AbsoluteMoniker": "D:0:0:{316970EB-95F1-46C8-BDFF-1AD7F54CA6D7}|Final_year_project\\Final_year_project.csproj|E:\\Finalproject\\Final_year_project\\final_year_project\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{316970EB-95F1-46C8-BDFF-1AD7F54CA6D7}|Final_year_project\\Final_year_project.csproj|solutionrelative:final_year_project\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{316970EB-95F1-46C8-BDFF-1AD7F54CA6D7}|Final_year_project\\Final_year_project.csproj|C:\\Users\\milin\\Downloads\\Final_year_project (2)\\Final_year_project\\final_year_project\\passwordchangepanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{316970EB-95F1-46C8-BDFF-1AD7F54CA6D7}|Final_year_project\\Final_year_project.csproj|E:\\Finalproject\\Final_year_project\\final_year_project\\passwordchangepanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{316970EB-95F1-46C8-BDFF-1AD7F54CA6D7}|Final_year_project\\Final_year_project.csproj|solutionrelative:final_year_project\\passwordchangepanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{316970EB-95F1-46C8-BDFF-1AD7F54CA6D7}|Final_year_project\\Final_year_project.csproj|C:\\Users\\milin\\Downloads\\Final_year_project (2)\\Final_year_project\\final_year_project\\profit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{316970EB-95F1-46C8-BDFF-1AD7F54CA6D7}|Final_year_project\\Final_year_project.csproj|E:\\Finalproject\\Final_year_project\\final_year_project\\profit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{316970EB-95F1-46C8-BDFF-1AD7F54CA6D7}|Final_year_project\\Final_year_project.csproj|solutionrelative:final_year_project\\profit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{316970EB-95F1-46C8-BDFF-1AD7F54CA6D7}|Final_year_project\\Final_year_project.csproj|C:\\Users\\milin\\Downloads\\Final_year_project (2)\\Final_year_project\\final_year_project\\reportforadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{316970EB-95F1-46C8-BDFF-1AD7F54CA6D7}|Final_year_project\\Final_year_project.csproj|E:\\Finalproject\\Final_year_project\\final_year_project\\reportforadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{316970EB-95F1-46C8-BDFF-1AD7F54CA6D7}|Final_year_project\\Final_year_project.csproj|solutionrelative:final_year_project\\reportforadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{316970EB-95F1-46C8-BDFF-1AD7F54CA6D7}|Final_year_project\\Final_year_project.csproj|C:\\Users\\milin\\Downloads\\Final_year_project (2)\\Final_year_project\\final_year_project\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{316970EB-95F1-46C8-BDFF-1AD7F54CA6D7}|Final_year_project\\Final_year_project.csproj|E:\\Finalproject\\Final_year_project\\final_year_project\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{316970EB-95F1-46C8-BDFF-1AD7F54CA6D7}|Final_year_project\\Final_year_project.csproj|solutionrelative:final_year_project\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{316970EB-95F1-46C8-BDFF-1AD7F54CA6D7}|Final_year_project\\Final_year_project.csproj|C:\\Users\\milin\\Downloads\\Final_year_project (2)\\Final_year_project\\final_year_project\\homepanel2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{316970EB-95F1-46C8-BDFF-1AD7F54CA6D7}|Final_year_project\\Final_year_project.csproj|E:\\Finalproject\\Final_year_project\\final_year_project\\homepanel2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{316970EB-95F1-46C8-BDFF-1AD7F54CA6D7}|Final_year_project\\Final_year_project.csproj|solutionrelative:final_year_project\\homepanel2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{316970EB-95F1-46C8-BDFF-1AD7F54CA6D7}|Final_year_project\\Final_year_project.csproj|C:\\Users\\milin\\Downloads\\Final_year_project (2)\\Final_year_project\\final_year_project\\homepanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{316970EB-95F1-46C8-BDFF-1AD7F54CA6D7}|Final_year_project\\Final_year_project.csproj|E:\\Finalproject\\Final_year_project\\final_year_project\\homepanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{316970EB-95F1-46C8-BDFF-1AD7F54CA6D7}|Final_year_project\\Final_year_project.csproj|solutionrelative:final_year_project\\homepanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{316970EB-95F1-46C8-BDFF-1AD7F54CA6D7}|Final_year_project\\Final_year_project.csproj|C:\\Users\\milin\\Downloads\\Final_year_project (2)\\Final_year_project\\final_year_project\\genaratereports.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{316970EB-95F1-46C8-BDFF-1AD7F54CA6D7}|Final_year_project\\Final_year_project.csproj|E:\\Finalproject\\Final_year_project\\final_year_project\\genaratereports.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{316970EB-95F1-46C8-BDFF-1AD7F54CA6D7}|Final_year_project\\Final_year_project.csproj|solutionrelative:final_year_project\\genaratereports.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{316970EB-95F1-46C8-BDFF-1AD7F54CA6D7}|Final_year_project\\Final_year_project.csproj|C:\\Users\\milin\\Downloads\\Final_year_project (2)\\Final_year_project\\final_year_project\\cashier panel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{316970EB-95F1-46C8-BDFF-1AD7F54CA6D7}|Final_year_project\\Final_year_project.csproj|E:\\Finalproject\\Final_year_project\\final_year_project\\cashier panel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{316970EB-95F1-46C8-BDFF-1AD7F54CA6D7}|Final_year_project\\Final_year_project.csproj|solutionrelative:final_year_project\\cashier panel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{316970EB-95F1-46C8-BDFF-1AD7F54CA6D7}|Final_year_project\\Final_year_project.csproj|C:\\Users\\milin\\Downloads\\Final_year_project (2)\\Final_year_project\\final_year_project\\calculate payroll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{316970EB-95F1-46C8-BDFF-1AD7F54CA6D7}|Final_year_project\\Final_year_project.csproj|E:\\Finalproject\\Final_year_project\\final_year_project\\calculate payroll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{316970EB-95F1-46C8-BDFF-1AD7F54CA6D7}|Final_year_project\\Final_year_project.csproj|solutionrelative:final_year_project\\calculate payroll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{316970EB-95F1-46C8-BDFF-1AD7F54CA6D7}|Final_year_project\\Final_year_project.csproj|C:\\Users\\milin\\Downloads\\Final_year_project (2)\\Final_year_project\\final_year_project\\additems.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{316970EB-95F1-46C8-BDFF-1AD7F54CA6D7}|Final_year_project\\Final_year_project.csproj|E:\\Finalproject\\Final_year_project\\final_year_project\\additems.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{316970EB-95F1-46C8-BDFF-1AD7F54CA6D7}|Final_year_project\\Final_year_project.csproj|solutionrelative:final_year_project\\additems.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{316970EB-95F1-46C8-BDFF-1AD7F54CA6D7}|Final_year_project\\Final_year_project.csproj|C:\\Users\\milin\\Downloads\\Final_year_project (2)\\Final_year_project\\final_year_project\\usercontroll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{316970EB-95F1-46C8-BDFF-1AD7F54CA6D7}|Final_year_project\\Final_year_project.csproj|E:\\Finalproject\\Final_year_project\\final_year_project\\usercontroll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{316970EB-95F1-46C8-BDFF-1AD7F54CA6D7}|Final_year_project\\Final_year_project.csproj|solutionrelative:final_year_project\\usercontroll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{316970EB-95F1-46C8-BDFF-1AD7F54CA6D7}|Final_year_project\\Final_year_project.csproj|C:\\Users\\milin\\Downloads\\Final_year_project (2)\\Final_year_project\\final_year_project\\profit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{316970EB-95F1-46C8-BDFF-1AD7F54CA6D7}|Final_year_project\\Final_year_project.csproj|E:\\Finalproject\\Final_year_project\\final_year_project\\profit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{316970EB-95F1-46C8-BDFF-1AD7F54CA6D7}|Final_year_project\\Final_year_project.csproj|solutionrelative:final_year_project\\profit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{316970EB-95F1-46C8-BDFF-1AD7F54CA6D7}|Final_year_project\\Final_year_project.csproj|C:\\Users\\milin\\Downloads\\Final_year_project (2)\\Final_year_project\\final_year_project\\orderstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{316970EB-95F1-46C8-BDFF-1AD7F54CA6D7}|Final_year_project\\Final_year_project.csproj|E:\\Finalproject\\Final_year_project\\final_year_project\\orderstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{316970EB-95F1-46C8-BDFF-1AD7F54CA6D7}|Final_year_project\\Final_year_project.csproj|solutionrelative:final_year_project\\orderstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{316970EB-95F1-46C8-BDFF-1AD7F54CA6D7}|Final_year_project\\Final_year_project.csproj|C:\\Users\\milin\\Downloads\\Final_year_project (2)\\Final_year_project\\final_year_project\\managestock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{316970EB-95F1-46C8-BDFF-1AD7F54CA6D7}|Final_year_project\\Final_year_project.csproj|E:\\Finalproject\\Final_year_project\\final_year_project\\managestock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{316970EB-95F1-46C8-BDFF-1AD7F54CA6D7}|Final_year_project\\Final_year_project.csproj|solutionrelative:final_year_project\\managestock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{316970EB-95F1-46C8-BDFF-1AD7F54CA6D7}|Final_year_project\\Final_year_project.csproj|C:\\Users\\milin\\Downloads\\Final_year_project (2)\\Final_year_project\\final_year_project\\homepanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{316970EB-95F1-46C8-BDFF-1AD7F54CA6D7}|Final_year_project\\Final_year_project.csproj|E:\\Finalproject\\Final_year_project\\final_year_project\\homepanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{316970EB-95F1-46C8-BDFF-1AD7F54CA6D7}|Final_year_project\\Final_year_project.csproj|solutionrelative:final_year_project\\homepanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{316970EB-95F1-46C8-BDFF-1AD7F54CA6D7}|Final_year_project\\Final_year_project.csproj|C:\\Users\\milin\\Downloads\\Final_year_project (2)\\Final_year_project\\final_year_project\\reportforadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{316970EB-95F1-46C8-BDFF-1AD7F54CA6D7}|Final_year_project\\Final_year_project.csproj|E:\\Finalproject\\Final_year_project\\final_year_project\\reportforadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{316970EB-95F1-46C8-BDFF-1AD7F54CA6D7}|Final_year_project\\Final_year_project.csproj|solutionrelative:final_year_project\\reportforadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{316970EB-95F1-46C8-BDFF-1AD7F54CA6D7}|Final_year_project\\Final_year_project.csproj|C:\\Users\\milin\\Downloads\\Final_year_project (2)\\Final_year_project\\final_year_project\\homepanel2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{316970EB-95F1-46C8-BDFF-1AD7F54CA6D7}|Final_year_project\\Final_year_project.csproj|E:\\Finalproject\\Final_year_project\\final_year_project\\homepanel2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{316970EB-95F1-46C8-BDFF-1AD7F54CA6D7}|Final_year_project\\Final_year_project.csproj|solutionrelative:final_year_project\\homepanel2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{316970EB-95F1-46C8-BDFF-1AD7F54CA6D7}|Final_year_project\\Final_year_project.csproj|C:\\Users\\milin\\Downloads\\Final_year_project (2)\\Final_year_project\\final_year_project\\passwordchangepanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{316970EB-95F1-46C8-BDFF-1AD7F54CA6D7}|Final_year_project\\Final_year_project.csproj|E:\\Finalproject\\Final_year_project\\final_year_project\\passwordchangepanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{316970EB-95F1-46C8-BDFF-1AD7F54CA6D7}|Final_year_project\\Final_year_project.csproj|solutionrelative:final_year_project\\passwordchangepanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{316970EB-95F1-46C8-BDFF-1AD7F54CA6D7}|Final_year_project\\Final_year_project.csproj|C:\\Users\\milin\\Downloads\\Final_year_project (2)\\Final_year_project\\final_year_project\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{316970EB-95F1-46C8-BDFF-1AD7F54CA6D7}|Final_year_project\\Final_year_project.csproj|E:\\Finalproject\\Final_year_project\\final_year_project\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{316970EB-95F1-46C8-BDFF-1AD7F54CA6D7}|Final_year_project\\Final_year_project.csproj|solutionrelative:final_year_project\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{316970EB-95F1-46C8-BDFF-1AD7F54CA6D7}|Final_year_project\\Final_year_project.csproj|C:\\Users\\milin\\Downloads\\Final_year_project (2)\\Final_year_project\\final_year_project\\login.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{316970EB-95F1-46C8-BDFF-1AD7F54CA6D7}|Final_year_project\\Final_year_project.csproj|E:\\Finalproject\\Final_year_project\\final_year_project\\login.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{316970EB-95F1-46C8-BDFF-1AD7F54CA6D7}|Final_year_project\\Final_year_project.csproj|solutionrelative:final_year_project\\login.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{316970EB-95F1-46C8-BDFF-1AD7F54CA6D7}|Final_year_project\\Final_year_project.csproj|C:\\Users\\milin\\Downloads\\Final_year_project (2)\\Final_year_project\\final_year_project\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{316970EB-95F1-46C8-BDFF-1AD7F54CA6D7}|Final_year_project\\Final_year_project.csproj|E:\\Finalproject\\Final_year_project\\final_year_project\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{316970EB-95F1-46C8-BDFF-1AD7F54CA6D7}|Final_year_project\\Final_year_project.csproj|solutionrelative:final_year_project\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\milin\\Downloads\\Final_year_project (2)\\Final_year_project\\packages\\Bunifu.UI.WinForms.5.2.3\\README.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Finalproject\\Final_year_project\\packages\\Bunifu.UI.WinForms.5.2.3\\README.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:packages\\Bunifu.UI.WinForms.5.2.3\\README.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
@@ -146,7 +154,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -158,140 +166,154 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "DBConnection.cs",
-              "DocumentMoniker": "C:\\Users\\milin\\Downloads\\Final_year_project (2)\\Final_year_project\\Final_year_project\\DBConnection.cs",
+              "DocumentMoniker": "E:\\Finalproject\\Final_year_project\\Final_year_project\\DBConnection.cs",
               "RelativeDocumentMoniker": "Final_year_project\\DBConnection.cs",
-              "ToolTip": "C:\\Users\\milin\\Downloads\\Final_year_project (2)\\Final_year_project\\Final_year_project\\DBConnection.cs",
+              "ToolTip": "E:\\Finalproject\\Final_year_project\\Final_year_project\\DBConnection.cs",
               "RelativeToolTip": "Final_year_project\\DBConnection.cs",
-              "ViewState": "AQIAAAIAAAAAAAAAAADwvwsAAABNAAAA",
+              "ViewState": "AQIAAAIAAAAAAAAAAADwvw8AAAA4AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-15T04:05:45.267Z",
+              "WhenOpened": "2025-06-22T13:13:41.925Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Calculate payroll.cs [Design]",
+              "DocumentMoniker": "E:\\Finalproject\\Final_year_project\\Final_year_project\\Calculate payroll.cs",
+              "RelativeDocumentMoniker": "Final_year_project\\Calculate payroll.cs",
+              "ToolTip": "E:\\Finalproject\\Final_year_project\\Final_year_project\\Calculate payroll.cs [Design]",
+              "RelativeToolTip": "Final_year_project\\Calculate payroll.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T13:12:23.001Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Calculate payroll.cs",
+              "DocumentMoniker": "E:\\Finalproject\\Final_year_project\\Final_year_project\\Calculate payroll.cs",
+              "RelativeDocumentMoniker": "Final_year_project\\Calculate payroll.cs",
+              "ToolTip": "E:\\Finalproject\\Final_year_project\\Final_year_project\\Calculate payroll.cs",
+              "RelativeToolTip": "Final_year_project\\Calculate payroll.cs",
+              "ViewState": "AQIAAGIAAAAAAAAAAAAqwHAAAABKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T13:12:23.101Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Addemployees.cs",
-              "DocumentMoniker": "C:\\Users\\milin\\Downloads\\Final_year_project (2)\\Final_year_project\\Final_year_project\\Addemployees.cs",
-              "RelativeDocumentMoniker": "Final_year_project\\Addemployees.cs",
-              "ToolTip": "C:\\Users\\milin\\Downloads\\Final_year_project (2)\\Final_year_project\\Final_year_project\\Addemployees.cs",
-              "RelativeToolTip": "Final_year_project\\Addemployees.cs",
-              "ViewState": "AQIAACcAAAAAAAAAAAAowIECAAAAAAAA",
+              "Title": "AddEmployees.cs [Design]",
+              "DocumentMoniker": "E:\\Finalproject\\Final_year_project\\Final_year_project\\AddEmployees.cs",
+              "RelativeDocumentMoniker": "Final_year_project\\AddEmployees.cs",
+              "ToolTip": "E:\\Finalproject\\Final_year_project\\Final_year_project\\AddEmployees.cs [Design]",
+              "RelativeToolTip": "Final_year_project\\AddEmployees.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-15T03:18:14.616Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-22T13:12:17.905Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
+              "Title": "Addemployees.cs",
+              "DocumentMoniker": "E:\\Finalproject\\Final_year_project\\Final_year_project\\Addemployees.cs",
+              "RelativeDocumentMoniker": "Final_year_project\\Addemployees.cs",
+              "ToolTip": "E:\\Finalproject\\Final_year_project\\Final_year_project\\Addemployees.cs",
+              "RelativeToolTip": "Final_year_project\\Addemployees.cs",
+              "ViewState": "AQIAACcAAAAAAAAAAAAowIECAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T03:18:14.616Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "customerpanel.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\milin\\Downloads\\Final_year_project (2)\\Final_year_project\\Final_year_project\\customerpanel.cs",
+              "DocumentMoniker": "E:\\Finalproject\\Final_year_project\\Final_year_project\\customerpanel.cs",
               "RelativeDocumentMoniker": "Final_year_project\\customerpanel.cs",
               "ToolTip": "C:\\Users\\User\\Downloads\\Final_year_project\\Final_year_project\\customerpanel.cs [Design]",
-              "RelativeToolTip": "..\\..\\..\\..\\User\\Downloads\\Final_year_project\\Final_year_project\\customerpanel.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
               "WhenOpened": "2025-06-15T03:18:14.664Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Addemployees.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\milin\\Downloads\\Final_year_project (2)\\Final_year_project\\Final_year_project\\Addemployees.cs",
-              "RelativeDocumentMoniker": "Final_year_project\\Addemployees.cs",
-              "ToolTip": "C:\\Users\\milin\\Downloads\\Final_year_project (2)\\Final_year_project\\Final_year_project\\Addemployees.cs [Design]",
-              "RelativeToolTip": "Final_year_project\\Addemployees.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-15T03:18:14.841Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 4,
               "Title": "Calculate payroll.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\milin\\Downloads\\Final_year_project (2)\\Final_year_project\\Final_year_project\\Calculate payroll.cs",
+              "DocumentMoniker": "E:\\Finalproject\\Final_year_project\\Final_year_project\\Calculate payroll.cs",
               "RelativeDocumentMoniker": "Final_year_project\\Calculate payroll.cs",
               "ToolTip": "C:\\Users\\User\\Downloads\\Final_year_project\\Final_year_project\\Calculate payroll.cs [Design]",
-              "RelativeToolTip": "..\\..\\..\\..\\User\\Downloads\\Final_year_project\\Final_year_project\\Calculate payroll.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
               "WhenOpened": "2025-06-15T03:18:14.849Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "App.config",
-              "DocumentMoniker": "C:\\Users\\milin\\Downloads\\Final_year_project (2)\\Final_year_project\\Final_year_project\\App.config",
+              "DocumentMoniker": "E:\\Finalproject\\Final_year_project\\Final_year_project\\App.config",
               "RelativeDocumentMoniker": "Final_year_project\\App.config",
-              "ToolTip": "C:\\Users\\milin\\Downloads\\Final_year_project (2)\\Final_year_project\\Final_year_project\\App.config",
+              "ToolTip": "E:\\Finalproject\\Final_year_project\\Final_year_project\\App.config",
               "RelativeToolTip": "Final_year_project\\App.config",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2025-06-15T03:18:14.85Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-15T03:18:14.85Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "cashier panel.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\milin\\Downloads\\Final_year_project (2)\\Final_year_project\\Final_year_project\\cashier panel.cs",
+              "DocumentMoniker": "E:\\Finalproject\\Final_year_project\\Final_year_project\\cashier panel.cs",
               "RelativeDocumentMoniker": "Final_year_project\\cashier panel.cs",
               "ToolTip": "C:\\Users\\User\\Downloads\\Final_year_project\\Final_year_project\\cashier panel.cs [Design]",
-              "RelativeToolTip": "..\\..\\..\\..\\User\\Downloads\\Final_year_project\\Final_year_project\\cashier panel.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
               "WhenOpened": "2025-06-15T03:18:14.851Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "genaratereports.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\milin\\Downloads\\Final_year_project (2)\\Final_year_project\\Final_year_project\\genaratereports.cs",
+              "DocumentMoniker": "E:\\Finalproject\\Final_year_project\\Final_year_project\\genaratereports.cs",
               "RelativeDocumentMoniker": "Final_year_project\\genaratereports.cs",
               "ToolTip": "C:\\Users\\User\\Downloads\\Final_year_project\\Final_year_project\\genaratereports.cs [Design]",
-              "RelativeToolTip": "..\\..\\..\\..\\User\\Downloads\\Final_year_project\\Final_year_project\\genaratereports.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
               "WhenOpened": "2025-06-15T03:18:14.853Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "Additems.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\milin\\Downloads\\Final_year_project (2)\\Final_year_project\\Final_year_project\\Additems.cs",
+              "DocumentMoniker": "E:\\Finalproject\\Final_year_project\\Final_year_project\\Additems.cs",
               "RelativeDocumentMoniker": "Final_year_project\\Additems.cs",
-              "ToolTip": "C:\\Users\\milin\\Downloads\\Final_year_project (2)\\Final_year_project\\Final_year_project\\Additems.cs [Design]",
+              "ToolTip": "E:\\Finalproject\\Final_year_project\\Final_year_project\\Additems.cs [Design]",
               "RelativeToolTip": "Final_year_project\\Additems.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-15T03:18:14.855Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-06-15T03:18:14.855Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "ManageStock.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\milin\\Downloads\\Final_year_project (2)\\Final_year_project\\Final_year_project\\ManageStock.cs",
+              "DocumentMoniker": "E:\\Finalproject\\Final_year_project\\Final_year_project\\ManageStock.cs",
               "RelativeDocumentMoniker": "Final_year_project\\ManageStock.cs",
               "ToolTip": "C:\\Users\\User\\Downloads\\Final_year_project\\Final_year_project\\ManageStock.cs [Design]",
-              "RelativeToolTip": "..\\..\\..\\..\\User\\Downloads\\Final_year_project\\Final_year_project\\ManageStock.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
               "WhenOpened": "2025-06-15T03:18:14.856Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "Orderstatus.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\milin\\Downloads\\Final_year_project (2)\\Final_year_project\\Final_year_project\\Orderstatus.cs",
+              "DocumentMoniker": "E:\\Finalproject\\Final_year_project\\Final_year_project\\Orderstatus.cs",
               "RelativeDocumentMoniker": "Final_year_project\\Orderstatus.cs",
               "ToolTip": "C:\\Users\\User\\Downloads\\Final_year_project\\Final_year_project\\Orderstatus.cs [Design]",
-              "RelativeToolTip": "..\\..\\..\\..\\User\\Downloads\\Final_year_project\\Final_year_project\\Orderstatus.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
               "WhenOpened": "2025-06-15T03:18:14.858Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "packages.config",
-              "DocumentMoniker": "C:\\Users\\milin\\Downloads\\Final_year_project (2)\\Final_year_project\\Final_year_project\\packages.config",
+              "DocumentMoniker": "E:\\Finalproject\\Final_year_project\\Final_year_project\\packages.config",
               "RelativeDocumentMoniker": "Final_year_project\\packages.config",
-              "ToolTip": "C:\\Users\\milin\\Downloads\\Final_year_project (2)\\Final_year_project\\Final_year_project\\packages.config",
+              "ToolTip": "E:\\Finalproject\\Final_year_project\\Final_year_project\\packages.config",
               "RelativeToolTip": "Final_year_project\\packages.config",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
@@ -299,77 +321,71 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "passwordchangepanel.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\milin\\Downloads\\Final_year_project (2)\\Final_year_project\\Final_year_project\\passwordchangepanel.cs",
+              "DocumentMoniker": "E:\\Finalproject\\Final_year_project\\Final_year_project\\passwordchangepanel.cs",
               "RelativeDocumentMoniker": "Final_year_project\\passwordchangepanel.cs",
               "ToolTip": "C:\\Users\\User\\Downloads\\Final_year_project\\Final_year_project\\passwordchangepanel.cs [Design]",
-              "RelativeToolTip": "..\\..\\..\\..\\User\\Downloads\\Final_year_project\\Final_year_project\\passwordchangepanel.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
               "WhenOpened": "2025-06-15T03:18:14.861Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "profit.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\milin\\Downloads\\Final_year_project (2)\\Final_year_project\\Final_year_project\\profit.cs",
+              "DocumentMoniker": "E:\\Finalproject\\Final_year_project\\Final_year_project\\profit.cs",
               "RelativeDocumentMoniker": "Final_year_project\\profit.cs",
               "ToolTip": "C:\\Users\\User\\Downloads\\Final_year_project\\Final_year_project\\profit.cs [Design]",
-              "RelativeToolTip": "..\\..\\..\\..\\User\\Downloads\\Final_year_project\\Final_year_project\\profit.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
               "WhenOpened": "2025-06-15T03:18:14.863Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "reportforadmin.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\milin\\Downloads\\Final_year_project (2)\\Final_year_project\\Final_year_project\\reportforadmin.cs",
+              "DocumentMoniker": "E:\\Finalproject\\Final_year_project\\Final_year_project\\reportforadmin.cs",
               "RelativeDocumentMoniker": "Final_year_project\\reportforadmin.cs",
               "ToolTip": "C:\\Users\\User\\Downloads\\Final_year_project\\Final_year_project\\reportforadmin.cs [Design]",
-              "RelativeToolTip": "..\\..\\..\\..\\User\\Downloads\\Final_year_project\\Final_year_project\\reportforadmin.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
               "WhenOpened": "2025-06-15T03:18:14.865Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 17,
               "Title": "LOGIN.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\milin\\Downloads\\Final_year_project (2)\\Final_year_project\\Final_year_project\\LOGIN.cs",
+              "DocumentMoniker": "E:\\Finalproject\\Final_year_project\\Final_year_project\\LOGIN.cs",
               "RelativeDocumentMoniker": "Final_year_project\\LOGIN.cs",
               "ToolTip": "C:\\Users\\User\\Downloads\\Final_year_project\\Final_year_project\\LOGIN.cs [Design]",
-              "RelativeToolTip": "..\\..\\..\\..\\User\\Downloads\\Final_year_project\\Final_year_project\\LOGIN.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
               "WhenOpened": "2025-06-15T03:18:14.866Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 18,
               "Title": "Homepanel2.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\milin\\Downloads\\Final_year_project (2)\\Final_year_project\\Final_year_project\\Homepanel2.cs",
+              "DocumentMoniker": "E:\\Finalproject\\Final_year_project\\Final_year_project\\Homepanel2.cs",
               "RelativeDocumentMoniker": "Final_year_project\\Homepanel2.cs",
               "ToolTip": "C:\\Users\\User\\Downloads\\Final_year_project\\Final_year_project\\Homepanel2.cs [Design]",
-              "RelativeToolTip": "..\\..\\..\\..\\User\\Downloads\\Final_year_project\\Final_year_project\\Homepanel2.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
               "WhenOpened": "2025-06-15T03:18:14.867Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 19,
               "Title": "Homepanel.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\milin\\Downloads\\Final_year_project (2)\\Final_year_project\\Final_year_project\\Homepanel.cs",
+              "DocumentMoniker": "E:\\Finalproject\\Final_year_project\\Final_year_project\\Homepanel.cs",
               "RelativeDocumentMoniker": "Final_year_project\\Homepanel.cs",
               "ToolTip": "C:\\Users\\User\\Downloads\\Final_year_project\\Final_year_project\\Homepanel.cs [Design]",
-              "RelativeToolTip": "..\\..\\..\\..\\User\\Downloads\\Final_year_project\\Final_year_project\\Homepanel.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
               "WhenOpened": "2025-06-15T03:18:14.869Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 21,
               "Title": "cashier panel.cs",
-              "DocumentMoniker": "C:\\Users\\milin\\Downloads\\Final_year_project (2)\\Final_year_project\\Final_year_project\\cashier panel.cs",
+              "DocumentMoniker": "E:\\Finalproject\\Final_year_project\\Final_year_project\\cashier panel.cs",
               "RelativeDocumentMoniker": "Final_year_project\\cashier panel.cs",
-              "ToolTip": "C:\\Users\\milin\\Downloads\\Final_year_project (2)\\Final_year_project\\Final_year_project\\cashier panel.cs",
+              "ToolTip": "E:\\Finalproject\\Final_year_project\\Final_year_project\\cashier panel.cs",
               "RelativeToolTip": "Final_year_project\\cashier panel.cs",
               "ViewState": "AQIAAA8AAAAAAAAAAAAEwCEAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
@@ -377,11 +393,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 20,
               "Title": "genaratereports.cs",
-              "DocumentMoniker": "C:\\Users\\milin\\Downloads\\Final_year_project (2)\\Final_year_project\\Final_year_project\\genaratereports.cs",
+              "DocumentMoniker": "E:\\Finalproject\\Final_year_project\\Final_year_project\\genaratereports.cs",
               "RelativeDocumentMoniker": "Final_year_project\\genaratereports.cs",
-              "ToolTip": "C:\\Users\\milin\\Downloads\\Final_year_project (2)\\Final_year_project\\Final_year_project\\genaratereports.cs",
+              "ToolTip": "E:\\Finalproject\\Final_year_project\\Final_year_project\\genaratereports.cs",
               "RelativeToolTip": "Final_year_project\\genaratereports.cs",
               "ViewState": "AQIAAA8AAAAAAAAAAAAEwCEAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
@@ -389,11 +405,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 22,
               "Title": "Calculate payroll.cs",
-              "DocumentMoniker": "C:\\Users\\milin\\Downloads\\Final_year_project (2)\\Final_year_project\\Final_year_project\\Calculate payroll.cs",
+              "DocumentMoniker": "E:\\Finalproject\\Final_year_project\\Final_year_project\\Calculate payroll.cs",
               "RelativeDocumentMoniker": "Final_year_project\\Calculate payroll.cs",
-              "ToolTip": "C:\\Users\\milin\\Downloads\\Final_year_project (2)\\Final_year_project\\Final_year_project\\Calculate payroll.cs",
+              "ToolTip": "E:\\Finalproject\\Final_year_project\\Final_year_project\\Calculate payroll.cs",
               "RelativeToolTip": "Final_year_project\\Calculate payroll.cs",
               "ViewState": "AQIAAAUAAAAAAAAAAAAEwBcAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
@@ -401,35 +417,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 23,
               "Title": "Additems.cs",
-              "DocumentMoniker": "C:\\Users\\milin\\Downloads\\Final_year_project (2)\\Final_year_project\\Final_year_project\\Additems.cs",
+              "DocumentMoniker": "E:\\Finalproject\\Final_year_project\\Final_year_project\\Additems.cs",
               "RelativeDocumentMoniker": "Final_year_project\\Additems.cs",
-              "ToolTip": "C:\\Users\\milin\\Downloads\\Final_year_project (2)\\Final_year_project\\Final_year_project\\Additems.cs",
+              "ToolTip": "E:\\Finalproject\\Final_year_project\\Final_year_project\\Additems.cs",
               "RelativeToolTip": "Final_year_project\\Additems.cs",
               "ViewState": "AQIAABkAAAAAAAAAAAAEwCsAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-15T03:18:14.876Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-15T03:18:14.876Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 24,
               "Title": "usercontroll.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\milin\\Downloads\\Final_year_project (2)\\Final_year_project\\Final_year_project\\usercontroll.cs",
+              "DocumentMoniker": "E:\\Finalproject\\Final_year_project\\Final_year_project\\usercontroll.cs",
               "RelativeDocumentMoniker": "Final_year_project\\usercontroll.cs",
               "ToolTip": "C:\\Users\\User\\Downloads\\Final_year_project\\Final_year_project\\usercontroll.cs [Design]",
-              "RelativeToolTip": "..\\..\\..\\..\\User\\Downloads\\Final_year_project\\Final_year_project\\usercontroll.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003302|",
               "WhenOpened": "2025-06-15T03:18:14.878Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 25,
               "Title": "profit.cs",
-              "DocumentMoniker": "C:\\Users\\milin\\Downloads\\Final_year_project (2)\\Final_year_project\\Final_year_project\\profit.cs",
+              "DocumentMoniker": "E:\\Finalproject\\Final_year_project\\Final_year_project\\profit.cs",
               "RelativeDocumentMoniker": "Final_year_project\\profit.cs",
-              "ToolTip": "C:\\Users\\milin\\Downloads\\Final_year_project (2)\\Final_year_project\\Final_year_project\\profit.cs",
+              "ToolTip": "E:\\Finalproject\\Final_year_project\\Final_year_project\\profit.cs",
               "RelativeToolTip": "Final_year_project\\profit.cs",
               "ViewState": "AQIAAAoAAAAAAAAAAAAEwBwAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
@@ -437,11 +451,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 26,
               "Title": "Orderstatus.cs",
-              "DocumentMoniker": "C:\\Users\\milin\\Downloads\\Final_year_project (2)\\Final_year_project\\Final_year_project\\Orderstatus.cs",
+              "DocumentMoniker": "E:\\Finalproject\\Final_year_project\\Final_year_project\\Orderstatus.cs",
               "RelativeDocumentMoniker": "Final_year_project\\Orderstatus.cs",
-              "ToolTip": "C:\\Users\\milin\\Downloads\\Final_year_project (2)\\Final_year_project\\Final_year_project\\Orderstatus.cs",
+              "ToolTip": "E:\\Finalproject\\Final_year_project\\Final_year_project\\Orderstatus.cs",
               "RelativeToolTip": "Final_year_project\\Orderstatus.cs",
               "ViewState": "AQIAAAoAAAAAAAAAAAAEwBwAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
@@ -449,11 +463,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 27,
               "Title": "ManageStock.cs",
-              "DocumentMoniker": "C:\\Users\\milin\\Downloads\\Final_year_project (2)\\Final_year_project\\Final_year_project\\ManageStock.cs",
+              "DocumentMoniker": "E:\\Finalproject\\Final_year_project\\Final_year_project\\ManageStock.cs",
               "RelativeDocumentMoniker": "Final_year_project\\ManageStock.cs",
-              "ToolTip": "C:\\Users\\milin\\Downloads\\Final_year_project (2)\\Final_year_project\\Final_year_project\\ManageStock.cs",
+              "ToolTip": "E:\\Finalproject\\Final_year_project\\Final_year_project\\ManageStock.cs",
               "RelativeToolTip": "Final_year_project\\ManageStock.cs",
               "ViewState": "AQIAAA8AAAAAAAAAAAAEwCUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
@@ -461,11 +475,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 28,
               "Title": "Homepanel.cs",
-              "DocumentMoniker": "C:\\Users\\milin\\Downloads\\Final_year_project (2)\\Final_year_project\\Final_year_project\\Homepanel.cs",
+              "DocumentMoniker": "E:\\Finalproject\\Final_year_project\\Final_year_project\\Homepanel.cs",
               "RelativeDocumentMoniker": "Final_year_project\\Homepanel.cs",
-              "ToolTip": "C:\\Users\\milin\\Downloads\\Final_year_project (2)\\Final_year_project\\Final_year_project\\Homepanel.cs",
+              "ToolTip": "E:\\Finalproject\\Final_year_project\\Final_year_project\\Homepanel.cs",
               "RelativeToolTip": "Final_year_project\\Homepanel.cs",
               "ViewState": "AQIAAC4AAAAAAAAAAAArwDkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
@@ -473,11 +487,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 29,
               "Title": "reportforadmin.cs",
-              "DocumentMoniker": "C:\\Users\\milin\\Downloads\\Final_year_project (2)\\Final_year_project\\Final_year_project\\reportforadmin.cs",
+              "DocumentMoniker": "E:\\Finalproject\\Final_year_project\\Final_year_project\\reportforadmin.cs",
               "RelativeDocumentMoniker": "Final_year_project\\reportforadmin.cs",
-              "ToolTip": "C:\\Users\\milin\\Downloads\\Final_year_project (2)\\Final_year_project\\Final_year_project\\reportforadmin.cs",
+              "ToolTip": "E:\\Finalproject\\Final_year_project\\Final_year_project\\reportforadmin.cs",
               "RelativeToolTip": "Final_year_project\\reportforadmin.cs",
               "ViewState": "AQIAAAcAAAAAAAAAAAArwBEAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
@@ -485,11 +499,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 30,
               "Title": "Homepanel2.cs",
-              "DocumentMoniker": "C:\\Users\\milin\\Downloads\\Final_year_project (2)\\Final_year_project\\Final_year_project\\Homepanel2.cs",
+              "DocumentMoniker": "E:\\Finalproject\\Final_year_project\\Final_year_project\\Homepanel2.cs",
               "RelativeDocumentMoniker": "Final_year_project\\Homepanel2.cs",
-              "ToolTip": "C:\\Users\\milin\\Downloads\\Final_year_project (2)\\Final_year_project\\Final_year_project\\Homepanel2.cs",
+              "ToolTip": "E:\\Finalproject\\Final_year_project\\Final_year_project\\Homepanel2.cs",
               "RelativeToolTip": "Final_year_project\\Homepanel2.cs",
               "ViewState": "AQIAAEYAAAAAAAAAAADgv1cAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
@@ -497,11 +511,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 31,
               "Title": "passwordchangepanel.cs",
-              "DocumentMoniker": "C:\\Users\\milin\\Downloads\\Final_year_project (2)\\Final_year_project\\Final_year_project\\passwordchangepanel.cs",
+              "DocumentMoniker": "E:\\Finalproject\\Final_year_project\\Final_year_project\\passwordchangepanel.cs",
               "RelativeDocumentMoniker": "Final_year_project\\passwordchangepanel.cs",
-              "ToolTip": "C:\\Users\\milin\\Downloads\\Final_year_project (2)\\Final_year_project\\Final_year_project\\passwordchangepanel.cs",
+              "ToolTip": "E:\\Finalproject\\Final_year_project\\Final_year_project\\passwordchangepanel.cs",
               "RelativeToolTip": "Final_year_project\\passwordchangepanel.cs",
               "ViewState": "AQIAAF4AAAAAAAAAAAA0wHoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
@@ -509,11 +523,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 32,
               "Title": "LOGIN.cs",
-              "DocumentMoniker": "C:\\Users\\milin\\Downloads\\Final_year_project (2)\\Final_year_project\\Final_year_project\\LOGIN.cs",
+              "DocumentMoniker": "E:\\Finalproject\\Final_year_project\\Final_year_project\\LOGIN.cs",
               "RelativeDocumentMoniker": "Final_year_project\\LOGIN.cs",
-              "ToolTip": "C:\\Users\\milin\\Downloads\\Final_year_project (2)\\Final_year_project\\Final_year_project\\LOGIN.cs",
+              "ToolTip": "E:\\Finalproject\\Final_year_project\\Final_year_project\\LOGIN.cs",
               "RelativeToolTip": "Final_year_project\\LOGIN.cs",
               "ViewState": "AQIAAFgAAAAAAAAAAAAwwHEAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
@@ -521,11 +535,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 33,
               "Title": "LOGIN.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\milin\\Downloads\\Final_year_project (2)\\Final_year_project\\Final_year_project\\LOGIN.Designer.cs",
+              "DocumentMoniker": "E:\\Finalproject\\Final_year_project\\Final_year_project\\LOGIN.Designer.cs",
               "RelativeDocumentMoniker": "Final_year_project\\LOGIN.Designer.cs",
-              "ToolTip": "C:\\Users\\milin\\Downloads\\Final_year_project (2)\\Final_year_project\\Final_year_project\\LOGIN.Designer.cs",
+              "ToolTip": "E:\\Finalproject\\Final_year_project\\Final_year_project\\LOGIN.Designer.cs",
               "RelativeToolTip": "Final_year_project\\LOGIN.Designer.cs",
               "ViewState": "AQIAAD0AAAAAAAAAAAAwwFMAAAAPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001384|",
@@ -533,11 +547,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 34,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\milin\\Downloads\\Final_year_project (2)\\Final_year_project\\Final_year_project\\Program.cs",
+              "DocumentMoniker": "E:\\Finalproject\\Final_year_project\\Final_year_project\\Program.cs",
               "RelativeDocumentMoniker": "Final_year_project\\Program.cs",
-              "ToolTip": "C:\\Users\\milin\\Downloads\\Final_year_project (2)\\Final_year_project\\Final_year_project\\Program.cs",
+              "ToolTip": "E:\\Finalproject\\Final_year_project\\Final_year_project\\Program.cs",
               "RelativeToolTip": "Final_year_project\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -545,11 +559,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 35,
               "Title": "README.txt",
-              "DocumentMoniker": "C:\\Users\\milin\\Downloads\\Final_year_project (2)\\Final_year_project\\packages\\Bunifu.UI.WinForms.5.2.3\\README.txt",
+              "DocumentMoniker": "E:\\Finalproject\\Final_year_project\\packages\\Bunifu.UI.WinForms.5.2.3\\README.txt",
               "RelativeDocumentMoniker": "packages\\Bunifu.UI.WinForms.5.2.3\\README.txt",
-              "ToolTip": "C:\\Users\\milin\\Downloads\\Final_year_project (2)\\Final_year_project\\packages\\Bunifu.UI.WinForms.5.2.3\\README.txt",
+              "ToolTip": "E:\\Finalproject\\Final_year_project\\packages\\Bunifu.UI.WinForms.5.2.3\\README.txt",
               "RelativeToolTip": "packages\\Bunifu.UI.WinForms.5.2.3\\README.txt",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",

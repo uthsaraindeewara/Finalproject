@@ -10,12 +10,13 @@ namespace Final_year_project
     {
         private string connectionString = "server=localhost;uid=root;pwd=;database=final_project;";
         private bool isAfterCalculation = false;
+        DateTime selectedDate;
 
         public Calculate_payroll()
         {
             InitializeComponent();
             this.StartPosition = FormStartPosition.CenterScreen;
-            SetupInitialGrid();
+            selectedDate = DateTime.Now;
             LoadEmployeeData();
         }
 
@@ -26,64 +27,11 @@ namespace Final_year_project
             this.Hide();
         }
 
-        private void SetupInitialGrid()
-        {
-            dataGridView1.Columns.Clear();
-            dataGridView1.AllowUserToAddRows = false;
-
-            dataGridView1.Columns.Add("employeeID", "Employee ID");
-            dataGridView1.Columns["employeeID"].ReadOnly = true;
-
-            dataGridView1.Columns.Add("employeeName", "Employee Name");
-            dataGridView1.Columns["employeeName"].ReadOnly = true;
-
-            dataGridView1.Columns.Add("salary", "Basic Salary");
-            dataGridView1.Columns["salary"].ReadOnly = true;
-
-            dataGridView1.Columns.Add("bonus", "Bonus");
-            dataGridView1.Columns.Add("deductions", "Deductions");
-            dataGridView1.Columns.Add("payDate", "Pay Date");
-
-            DataGridViewButtonColumn calcButton = new DataGridViewButtonColumn();
-            calcButton.Name = "calculateButton";
-            calcButton.HeaderText = "Calculate";
-            calcButton.Text = "Calculate";
-            calcButton.UseColumnTextForButtonValue = true;
-            dataGridView1.Columns.Add(calcButton);
-        }
-
-        private void SetupCalculatedGrid()
-        {
-            dataGridView1.Columns.Clear();
-            dataGridView1.AllowUserToAddRows = false;
-
-            dataGridView1.Columns.Add("payrollID", "Payroll ID");
-            dataGridView1.Columns["payrollID"].ReadOnly = true;
-
-            dataGridView1.Columns.Add("employeeName", "Employee Name");
-            dataGridView1.Columns["employeeName"].ReadOnly = true;
-
-            dataGridView1.Columns.Add("salary", "Basic Salary");
-            dataGridView1.Columns["salary"].ReadOnly = true;
-
-            dataGridView1.Columns.Add("deductions", "Deductions");
-            dataGridView1.Columns["deductions"].ReadOnly = true;
-
-            dataGridView1.Columns.Add("bonus", "Bonus");
-            dataGridView1.Columns["bonus"].ReadOnly = true;
-
-            dataGridView1.Columns.Add("payDate", "Pay Date");
-            dataGridView1.Columns["payDate"].ReadOnly = true;
-
-            dataGridView1.Columns.Add("finalAmount", "Final Payroll Amount");
-            dataGridView1.Columns["finalAmount"].ReadOnly = true;
-        }
-
         private void LoadEmployeeData()
         {
             dataGridView1.Rows.Clear();
 
-            using (MySqlConnection conn = new MySqlConnection(connectionString))
+            using (MySqlConnection conn = DBConnection.GetConnection())
             {
                 conn.Open();
                 string query = @"
@@ -114,35 +62,68 @@ namespace Final_year_project
         {
             dataGridView1.Rows.Clear();
 
-            using (MySqlConnection conn = new MySqlConnection(connectionString))
+            string monthStart = new DateTime(selectedDate.Year, selectedDate.Month, 1).ToString("yyyy-MM-dd");
+            string monthEnd = new DateTime(selectedDate.Year, selectedDate.Month, DateTime.DaysInMonth(selectedDate.Year, selectedDate.Month)).ToString("yyyy-MM-dd");
+
+            using (MySqlConnection conn = DBConnection.GetConnection())
             {
                 conn.Open();
                 string query = @"
                     SELECT 
-                        p.payrollID,
-                        e.employeeName,
-                        p.basicSalary,
-                        p.deductions,
-                        p.bonus,
+                        e.employeeID, 
+                        e.employeeName, 
+                        e.salary,
+                        IFNULL(p.bonus, 0) AS bonus, 
+                        IFNULL(p.deductions, 0) AS deductions, 
                         p.payDate,
-                        (p.basicSalary + p.bonus - p.deductions) AS finalAmount
-                    FROM payroll p
-                    INNER JOIN employee e ON e.employeeID = p.employeeID";
+                        (e.salary + IFNULL(p.bonus, 0) - IFNULL(p.deductions, 0)) AS totalPay
+                    FROM employee e
+                    LEFT JOIN payroll p 
+                        ON e.employeeID = p.employeeID 
+                        AND p.payDate BETWEEN @start AND @end";
 
                 using (MySqlCommand cmd = new MySqlCommand(query, conn))
-                using (MySqlDataReader reader = cmd.ExecuteReader())
                 {
-                    while (reader.Read())
+                    cmd.Parameters.AddWithValue("@start", monthStart);
+                    cmd.Parameters.AddWithValue("@end", monthEnd);
+
+                    using (MySqlDataReader reader = cmd.ExecuteReader())
                     {
-                        dataGridView1.Rows.Add(
-                            reader["payrollID"].ToString(),
-                            reader["employeeName"].ToString(),
-                            Convert.ToDouble(reader["basicSalary"]).ToString("F2"),
-                            Convert.ToDouble(reader["deductions"]).ToString("F2"),
-                            Convert.ToDouble(reader["bonus"]).ToString("F2"),
-                            Convert.ToDateTime(reader["payDate"]).ToShortDateString(),
-                            Convert.ToDouble(reader["finalAmount"]).ToString("F2")
-                        );
+                        while (reader.Read())
+                        {
+                            int employeeID = Convert.ToInt32(reader["employeeID"]);
+                            string name = reader["employeeName"].ToString();
+                            double salary = Convert.ToDouble(reader["salary"]);
+                            double bonus = Convert.ToDouble(reader["bonus"]);
+                            double deductions = Convert.ToDouble(reader["deductions"]);
+
+                            string payDateStr;
+                            string totalPayStr;
+
+                            if (reader["payDate"] != DBNull.Value)
+                            {
+                                DateTime payDate = Convert.ToDateTime(reader["payDate"]);
+                                payDateStr = payDate.ToShortDateString();
+                                double totalPay = Convert.ToDouble(reader["totalPay"]);
+                                totalPayStr = totalPay.ToString("0.#");
+                            }
+                            else
+                            {
+                                payDateStr = DateTime.Today.ToShortDateString(); // Default today if no payroll
+                                totalPayStr = ""; // Leave Total Pay blank
+                            }
+
+                            dataGridView1.Rows.Add(
+                                employeeID,
+                                name,
+                                salary.ToString("0.#"),
+                                bonus.ToString("0.#"),
+                                deductions.ToString("0.#"),
+                                payDateStr,
+                                "Calculate",
+                                totalPayStr
+                            );
+                        }
                     }
                 }
             }
@@ -150,9 +131,7 @@ namespace Final_year_project
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
-            if (!isAfterCalculation &&
-                e.ColumnIndex == dataGridView1.Columns["calculateButton"].Index &&
-                e.RowIndex >= 0)
+            if (e.ColumnIndex == dataGridView1.Columns["action"].Index && e.RowIndex >= 0)
             {
                 DataGridViewRow row = dataGridView1.Rows[e.RowIndex];
 
@@ -161,19 +140,15 @@ namespace Final_year_project
                     int employeeID = int.Parse(row.Cells["employeeID"].Value.ToString());
                     double salary = double.Parse(row.Cells["salary"].Value.ToString());
 
-                    double bonus = 0;
-                    double deductions = 0;
-                    DateTime payDate = DateTime.Now;
+                    double.TryParse(row.Cells["bonus"].Value?.ToString(), out double bonus);
+                    double.TryParse(row.Cells["deductions"].Value?.ToString(), out double deductions);
+                    DateTime.TryParse(row.Cells["payDate"].Value?.ToString(), out DateTime payDate);
 
-                    double.TryParse(row.Cells["bonus"].Value?.ToString(), out bonus);
-                    double.TryParse(row.Cells["deductions"].Value?.ToString(), out deductions);
-                    DateTime.TryParse(row.Cells["payDate"].Value?.ToString(), out payDate);
+                    if (payDate == DateTime.MinValue)
+                        payDate = DateTime.Today;
 
                     SavePayroll(employeeID, salary, bonus, deductions, payDate);
 
-                    // Switch to result view
-                    isAfterCalculation = true;
-                    SetupCalculatedGrid();
                     LoadPayrollData();
                 }
                 catch (Exception ex)
@@ -185,40 +160,59 @@ namespace Final_year_project
 
         private void SavePayroll(int employeeID, double salary, double bonus, double deductions, DateTime payDate)
         {
-            using (MySqlConnection conn = new MySqlConnection(connectionString))
+            using (MySqlConnection conn = DBConnection.GetConnection())
             {
                 conn.Open();
 
-                string checkQuery = "SELECT COUNT(*) FROM payroll WHERE employeeID = @empID";
+                string checkQuery = @"SELECT COUNT(*) FROM payroll 
+                          WHERE employeeID = @empID 
+                          AND MONTH(payDate) = @month 
+                          AND YEAR(payDate) = @year";
+
                 using (MySqlCommand checkCmd = new MySqlCommand(checkQuery, conn))
                 {
                     checkCmd.Parameters.AddWithValue("@empID", employeeID);
-                    int count = Convert.ToInt32(checkCmd.ExecuteScalar());
+                    checkCmd.Parameters.AddWithValue("@month", payDate.Month);
+                    checkCmd.Parameters.AddWithValue("@year", payDate.Year);
 
-                    string query;
+                    long count = (long)checkCmd.ExecuteScalar();
                     if (count > 0)
                     {
-                        query = @"UPDATE payroll 
-                                  SET basicSalary = @salary, bonus = @bonus, deductions = @deductions, payDate = @payDate 
-                                  WHERE employeeID = @empID";
-                    }
-                    else
-                    {
-                        query = @"INSERT INTO payroll (employeeID, basicSalary, bonus, deductions, payDate) 
-                                  VALUES (@empID, @salary, @bonus, @deductions, @payDate)";
-                    }
-
-                    using (MySqlCommand cmd = new MySqlCommand(query, conn))
-                    {
-                        cmd.Parameters.AddWithValue("@empID", employeeID);
-                        cmd.Parameters.AddWithValue("@salary", salary);
-                        cmd.Parameters.AddWithValue("@bonus", bonus);
-                        cmd.Parameters.AddWithValue("@deductions", deductions);
-                        cmd.Parameters.AddWithValue("@payDate", payDate);
-                        cmd.ExecuteNonQuery();
+                        MessageBox.Show("Payroll for this employee in this month already exists.");
+                        return;
                     }
                 }
+
+                string insertQuery = @"
+                    INSERT INTO payroll (employeeID, basicSalary, bonus, deductions, payDate)
+                    VALUES (@empID, @salary, @bonus, @deductions, @payDate)";
+
+                using (MySqlCommand cmd = new MySqlCommand(insertQuery, conn))
+                {
+                    cmd.Parameters.AddWithValue("@empID", employeeID);
+                    cmd.Parameters.AddWithValue("@salary", salary);
+                    cmd.Parameters.AddWithValue("@bonus", bonus);
+                    cmd.Parameters.AddWithValue("@deductions", deductions);
+                    cmd.Parameters.AddWithValue("@payDate", payDate);
+                    cmd.ExecuteNonQuery();
+                }
             }
+        }
+
+        private void Calculate_payroll_Load(object sender, EventArgs e)
+        {
+            dateTimePicker1.Format = DateTimePickerFormat.Custom;
+            dateTimePicker1.CustomFormat = "MMMM yyyy";
+            dateTimePicker1.ShowUpDown = true;
+            selectedDate = DateTime.Now;
+            dateTimePicker1.Value = selectedDate;
+            LoadPayrollData();
+        }
+
+        private void dateTimePicker1_ValueChanged(object sender, EventArgs e)
+        {
+            selectedDate = dateTimePicker1.Value;
+            LoadPayrollData();
         }
     }
 }
